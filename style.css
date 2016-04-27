@@ -1,0 +1,15 @@
+#stringToChange, #changedString {
+  width:400px;
+}
+
+#changedString {
+  font-size: 1.5em;
+}
+
+.textOutput {
+  background: #ddd;
+}
+
+#wrapper {
+  padding-left: 20px;
+}

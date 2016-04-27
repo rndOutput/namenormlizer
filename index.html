@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="wrapper">
+    <h1>Name Normalizer</h1>
+    <p>Paste or type your text in the box below.</p>
+
+    <form name="nameChanger">
+        <input type="text" id="stringToChange" value="Your text here"><br>
+        <p>Select changes to make:</p>
+        <input type="checkbox" id="makeLower" onclick="changeContent()"> lowercase
+        <input type="checkbox" id="replaceSpaces" onclick="changeContent()"> replace spaces
+        <p>Add optional extension:</p>
+        <input type="checkbox" id="addPDF" onclick="changeContent()"> .pdf
+        <input type="checkbox" id="addDOC" onclick="changeContent()"> .doc
+        <input type="checkbox" id="addDOCX" onclick="changeContent()"> .docx
+        <input type="checkbox" id="addXLS" onclick="changeContent()"> .xls
+        <input type="checkbox" id="addXLSX" onclick="changeContent()"> .xlsx
+        <input type="checkbox" id="addHTML" onclick="changeContent()"> .html
+
+
+    </form>
+    <br>
+    <p id="changedString" class="textOutput">New name appears here.</p><br>
+</div>
+</body>
+</html>
